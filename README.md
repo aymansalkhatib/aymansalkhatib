@@ -17,7 +17,7 @@
 
 <br>
 
-- 🌟 **Software Engineering student at Damascus University,** passionate about elegant and efficient software solutions.
+- 🌟 **🌟 Software Engineering student at Damascus University, passionate about efficient software solutions.
 
 - 💬 **Ask me about** ***Flutter*** **and** ***Express.js,*** **and let's discuss tech trends!**
 
