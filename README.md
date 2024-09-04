@@ -17,15 +17,10 @@
 
 <br>
 
-- 🌟 **🌟 Software Engineering student at Damascus University, passionate about efficient software solutions.
-
-- 💬 **Ask me about** ***Flutter*** **and** ***Express.js,*** **and let's discuss tech trends!**
-
-- 🌱 **Learning** ***[Flutter](https://flutter.dev/)*** **for cross-platform apps and** ***[Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)*** **for backend solutions.**
-
-- 🚀 **Always exploring new tech challenges and opportunities. Let's innovate together!**
-
-
+- **🎓 Fourth-year Software Engineering student at Damascus University.**
+- **💼 Certified Full Stack Developer, proficient in both front-end and back-end development.**
+- **📱 Two years of Flutter experience crafting dynamic, responsive mobile applications.**
+- **🌐 One year of Express.js expertise building robust, scalable back-end systems.**
 <br>
 
 ## 🛠️ Technologies & Tools
