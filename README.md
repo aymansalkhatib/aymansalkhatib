@@ -143,5 +143,3 @@
 
 ## 🏆 Profile Trophies
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Ayman-Al-Khatib&theme=onedark" alt="Ayman-Al-Khatib" /></a> </p>
-
-<img src="https://raw.githubusercontent.com/Ayman-Al-Khatib/Ayman-Al-Khatib/output/snake.svg" alt="Snake animation" />
