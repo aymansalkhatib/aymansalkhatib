@@ -129,17 +129,17 @@
 
 ## GitHub Profile Statistics 
 <p>
-   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Ayman-Al-Khatib&theme=algolia&show_icons=true&locale=en&layout=compact&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20" alt="Ayman-Al-Khatib" height="170"/>
+   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ayman-al-khatib&theme=algolia&show_icons=true&locale=en&layout=compact&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20" alt="ayman-al-khatib" height="170"/>
   <image width=12>
-  <img src="https://github-readme-stats.vercel.app/api?username=Ayman-Al-Khatib&theme=algolia&show_icons=true&count_private=true&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20&include_all_commits=true&rank_icon=percentile" alt="Ayman-Al-Khatib" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ayman-al-khatib&theme=algolia&show_icons=true&count_private=true&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20&include_all_commits=true&rank_icon=percentile" alt="ayman-al-khatib" height="170"/>
 </p>
 
 
 ## GitHub Streak Statistics
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Ayman-Al-Khatib&theme=algolia&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20" alt="Ayman-Al-Khatib" />
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ayman-al-khatib&theme=algolia&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20" alt="ayman-al-khatib" />
 
 ## 💳 Github Profile Summary Card
-<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayman-Al-Khatib&theme=algolia" alt="Ayman-Al-Khatib" />
+<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ayman-al-khatib&theme=algolia" alt="ayman-al-khatib" />
 
 ## 🏆 Profile Trophies
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Ayman-Al-Khatib&theme=onedark" alt="Ayman-Al-Khatib" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ayman-al-khatib&theme=onedark" alt="ayman-al-khatib" /></a> </p>
