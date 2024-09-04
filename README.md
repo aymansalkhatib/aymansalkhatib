@@ -15,15 +15,18 @@
 
 ---
 
-- 🌟 **Driven by curiosity and creativity,** I'm a Software Engineering student at Damascus University with a passion for crafting elegant and efficient software solutions. My journey is fueled by the desire to turn complex problems into user-friendly applications.
+<br>
 
-- 💬 **Curious about my projects or tech stack?** Ask me about my hands-on experience with ***Flutter and Express.js.*** I love discussing the latest trends and sharing insights!
+- 🌟 **Software Engineering student at Damascus University,** passionate about elegant and efficient software solutions.
 
-- 🌱 **Currently immersed in** ***[Flutter](https://flutter.dev/)*** **to build seamless cross-platform apps and** ***[Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)*** **to create robust and scalable server-side solutions.**
+- 💬 **Ask me about** ***Flutter*** **and** ***Express.js,*** **and let's discuss tech trends!**
 
-- 🚀 **A passionate innovator and lifelong learner,** I'm always on the lookout for exciting challenges and opportunities to push the boundaries of technology. Let’s connect and create something amazing together!
+- 🌱 **Learning** ***[Flutter](https://flutter.dev/)*** **for cross-platform apps and** ***[Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)*** **for backend solutions.**
 
----
+- 🚀 **Always exploring new tech challenges and opportunities. Let's innovate together!**
+
+
+<br>
 
 ## 🛠️ Technologies & Tools
 <div align="left">
