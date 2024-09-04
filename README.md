@@ -1,16 +1,143 @@
-## Hi there 👋
+ <div align="center">
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" />
+</div>
 
-<!--
-**Ayman-Al-Khatib/Ayman-Al-Khatib** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Ayman-Al-Khatib.Ayman-Al-Khatib" />
 
-Here are some ideas to get you started:
+<h3 align="center">
+  Hi, I'm Ayman Al-khatib 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h3>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=72FFFF&size=25&center=true&vCenter=true&width=1000&lines=Welcome+to+my+GitHub+profile!;Software+Engineering+student+at+Damascus+University.;Aspiring+Full-Stack+Developer.;Experienced+with+Flutter+and+Express.js.;Always+exploring+new+technologies+and+improving!" alt="Typing SVG">
+</p>
+
+---
+
+- 🌟 **Driven by curiosity and creativity,** I'm a Software Engineering student at Damascus University with a passion for crafting elegant and efficient software solutions. My journey is fueled by the desire to turn complex problems into user-friendly applications.
+
+- 💬 **Curious about my projects or tech stack?** Ask me about my hands-on experience with ***Flutter and Express.js.*** I love discussing the latest trends and sharing insights!
+
+- 🌱 **Currently immersed in** ***[Flutter](https://flutter.dev/)*** **to build seamless cross-platform apps and** ***[Node.js](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)*** **to create robust and scalable server-side solutions.**
+
+- 🚀 **A passionate innovator and lifelong learner,** I'm always on the lookout for exciting challenges and opportunities to push the boundaries of technology. Let’s connect and create something amazing together!
+
+---
+
+## 🛠️ Technologies & Tools
+<div align="left">
+  <!-- Frameworks -->
+  <img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=express" alt="Express.js" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=threejs" alt="Three.js" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=deno" alt="Deno" />
+  <img width="1" />
+  <!-- Languages -->
+  <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=java" alt="Java" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=cpp" alt="C++" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=dart" alt="Dart" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=php" alt="PHP" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=cs" alt="C#" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
+  <img width="1" />
+  <!-- Databases -->
+  <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=redis" alt="Redis" />
+  <img width="1" />
+  <!-- Tools & Platforms -->
+  <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=sequelize" alt="Sequelize" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=postman" alt="Postman" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=gradle" alt="Gradle" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=powershell" alt="PowerShell" />
+  <img width="1" />
+  <!-- Development Tools -->
+  <img src="https://skillicons.dev/icons?i=idea" alt="IntelliJ IDEA" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=phpstorm" alt="PHPStorm" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=pycharm" alt="PyCharm" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=webstorm" alt="WebStorm" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=visualstudio" alt="Visual Studio" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=clion" alt="CLion" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=matlab" alt="MATLAB" />
+  <img width="1" />
+  <!-- Version Control & Platforms -->
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=gitlab" alt="GitLab" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=npm" alt="NPM" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=devto" alt="Dev.to" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=stackoverflow" alt="StackOverflow" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=regex" alt="Regex" />
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=svg" alt="SVG" />
+  <img width="1" />
+  <img src="https://socket.io/images/logo-dark.svg" height=45 alt="Socket.IO" />
+</div>
+
+## GitHub Profile Statistics 
+<p>
+   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ayman-al-khatib&theme=algolia&show_icons=true&locale=en&layout=compact&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20" alt="ayman-al-khatib" height="170"/>
+  <image width=12>
+  <img src="https://github-readme-stats.vercel.app/api?username=ayman-al-khatib&theme=algolia&show_icons=true&count_private=true&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20&include_all_commits=true&rank_icon=percentile" alt="ayman-al-khatib" height="170"/>
+</p>
+
+
+## GitHub Streak Statistics
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ayman-al-khatib&theme=algolia&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20" alt="ayman-al-khatib" />
+
+## 💳 Github Profile Summary Card
+<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ayman-al-khatib&theme=algolia" alt="ayman-al-khatib" />
+
+## 🏆 Profile Trophies
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ayman-al-khatib&theme=onedark" alt="ayman-al-khatib" /></a> </p>
+
