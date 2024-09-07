@@ -138,3 +138,12 @@
 
 ## 🏆 Profile Trophies
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ayman-al-khatib&theme=onedark" alt="ayman-al-khatib" /></a> </p>
+
+## Highlighted Repositories
+<p align="left">
+  <a href="https://github.com/Ayman-Al-Khatib/bio-medika-mobile"><img width="33%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=bio-medika-mobile&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="Bio Medika Mobile"></a>
+  <a href="https://github.com/Ayman-Al-Khatib/bio-medika-web"><img width="33%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=bio-medika-web&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="Bio Medika Web"></a>
+  <a href="https://github.com/Ayman-Al-Khatib/school-dashboard"><img width="33%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=school-dashboard&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="School Dashboard"></a>
+  <a href="https://github.com/Ayman-Al-Khatib/profinder-backend"><img width="33%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=profinder-backend&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="ProFinder Backend"></a>
+  <a href="https://github.com/Ayman-Al-Khatib/ecommerce-backend"><img width="33%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=ecommerce-backend&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="E-Commerce Backend"></a>
+</p>
