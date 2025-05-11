@@ -32,12 +32,6 @@
   <img width="1" />
   <img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS" />
   <img width="1" />
-  <img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=threejs" alt="Three.js" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=deno" alt="Deno" />
-  <img width="1" />
   <!-- Languages -->
   <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" />
   <img width="1" />
@@ -50,14 +44,6 @@
   <img src="https://skillicons.dev/icons?i=cpp" alt="C++" />
   <img width="1" />
   <img src="https://skillicons.dev/icons?i=dart" alt="Dart" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=php" alt="PHP" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=cs" alt="C#" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
   <img width="1" />
   <!-- Databases -->
   <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" />
@@ -75,22 +61,12 @@
   <img width="1" />
   <img src="https://skillicons.dev/icons?i=sequelize" alt="Sequelize" />
   <img width="1" />
-  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" />
-  <img width="1" />
   <img src="https://skillicons.dev/icons?i=postman" alt="Postman" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=gradle" alt="Gradle" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=powershell" alt="PowerShell" />
   <img width="1" />
   <!-- Development Tools -->
   <img src="https://skillicons.dev/icons?i=idea" alt="IntelliJ IDEA" />
   <img width="1" />
   <img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=phpstorm" alt="PHPStorm" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=pycharm" alt="PyCharm" />
   <img width="1" />
   <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
   <img width="1" />
@@ -99,8 +75,6 @@
   <img src="https://skillicons.dev/icons?i=visualstudio" alt="Visual Studio" />
   <img width="1" />
   <img src="https://skillicons.dev/icons?i=clion" alt="CLion" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=matlab" alt="MATLAB" />
   <img width="1" />
   <!-- Version Control & Platforms -->
   <img src="https://skillicons.dev/icons?i=git" alt="Git" />
@@ -111,13 +85,7 @@
   <img width="1" />
   <img src="https://skillicons.dev/icons?i=npm" alt="NPM" />
   <img width="1" />
-  <img src="https://skillicons.dev/icons?i=devto" alt="Dev.to" />
-  <img width="1" />
   <img src="https://skillicons.dev/icons?i=stackoverflow" alt="StackOverflow" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=regex" alt="Regex" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=svg" alt="SVG" />
   <img width="1" />
   <img src="https://socket.io/images/logo-dark.svg" height=45 alt="Socket.IO" />
 </div>
