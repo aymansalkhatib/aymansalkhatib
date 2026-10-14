@@ -16,18 +16,19 @@
 
 ## About me
 
-I'm a backend engineer from Damascus, Syria, working mainly with **Java and Spring Boot**. I help companies build ERP systems, design and build their backend infrastructure, develop mobile apps, and move from a monolith to microservices. I graduated from Damascus University in Information Technology Engineering (Software Engineering).
+I'm a software engineer from Damascus, Syria. I build backends with **Java and Spring Boot** and with **NestJS**, and mobile apps with **Flutter**. I help companies build ERP systems, design and build their backend infrastructure, develop mobile apps, and move from a monolith to microservices. I graduated from Damascus University in Information Technology Engineering (Software Engineering).
 
-- **Backend:** Java, Spring Boot, Spring Security, JPA / Hibernate, REST and GraphQL APIs
-- **ERP:** Frappe and ERPNext
-- **Data and delivery:** PostgreSQL, Redis, Docker, Kubernetes
-- **Also:** NestJS for APIs and Flutter for mobile apps
+- **Spring Boot:** Java, Spring Security, JPA / Hibernate, REST and GraphQL APIs, Maven and Gradle
+- **NestJS:** TypeScript, TypeORM, JWT and role-based access, Socket.IO, well-tested REST APIs
+- **Flutter:** Dart, Bloc and GetX, Clean Architecture, Firebase, maps and push notifications, native Android code in Kotlin
+- **ERP:** ERPNext and the Frappe framework, with Python
+- **Data and delivery:** PostgreSQL, MySQL, Redis, MongoDB, Docker, Kubernetes, CI/CD
 - **Problem solving:** competed in the 2023 ICPC Damascus University Collegiate Programming Contest
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
-    <img src="assets/skills-light.svg" alt="Java, Spring, Hibernate, Maven, GraphQL, Frappe, ERPNext, PostgreSQL, MySQL, Redis, MongoDB, Docker, Kubernetes, GitHub Actions, Linux, NestJS, Flutter" width="500">
+    <img src="assets/skills-light.svg" alt="Java, Kotlin, Spring Boot, Maven, Gradle, NestJS, GraphQL, Postman, Flutter, Dart, Firebase, Python, ERPNext, PostgreSQL, MySQL, Redis, MongoDB, Supabase, Docker, Kubernetes, Jenkins, GitHub Actions, Terraform, Linux, Git" width="680">
   </picture>
 </p>
 
