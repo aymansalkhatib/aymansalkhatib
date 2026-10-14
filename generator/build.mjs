@@ -278,7 +278,8 @@ function write(name, data) {
   fs.writeFileSync(path.join(OUT, `${name}.svg`), data);
 }
 
-const REDUCED_MOTION = '@media (prefers-reduced-motion: reduce){*{animation:none!important}}';
+// The hero animates with SMIL, which CSS cannot pause, so moving parts are hidden instead.
+const REDUCED_MOTION = '@media (prefers-reduced-motion: reduce){.motion{display:none}}';
 
 // A row-wrapping list of pills. Returns { svg, height }.
 function chips(items, x, y, maxW, t) {
@@ -352,6 +353,7 @@ function diagram(t) {
   s += node(1100, 304, 'redis', 'redis');
 
   // Arrival glows, timed to the packets below.
+  s += '<g class="motion">';
   const glow = (cx, cy, times, color, round = 18, w = 75, h = 75) => {
     const kt = [0], v = [0];
     for (const a of times) { kt.push(a - 0.02, a, a + 0.1); v.push(0, 1, 0); }
@@ -381,6 +383,7 @@ function diagram(t) {
   s += packet(edges.e2, 0.5, 0.76, t.accent);
   s += packet(edges.e4, 0.76, 0.92, t.accent2);
   s += packet(edges.e6, 0.76, 0.92, t.accent2);
+  s += '</g>';
   return s;
 }
 
@@ -399,7 +402,7 @@ function heroBackground(W, H, t, { glowX = 0.78 } = {}) {
 
 function pulseDot(cx, cy, color) {
   return `<circle cx="${cx}" cy="${cy}" r="4" fill="${color}"/>`
-    + `<circle cx="${cx}" cy="${cy}" r="4" fill="none" stroke="${color}" stroke-width="1.5">`
+    + `<circle class="motion" cx="${cx}" cy="${cy}" r="4" fill="none" stroke="${color}" stroke-width="1.5">`
     + `<animate attributeName="r" values="4;11" dur="2.2s" repeatCount="indefinite"/>`
     + `<animate attributeName="opacity" values="0.8;0" dur="2.2s" repeatCount="indefinite"/></circle>`;
 }
