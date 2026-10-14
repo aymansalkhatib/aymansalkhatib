@@ -5,7 +5,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/typing-dark.svg">
-    <img src="assets/typing-light.svg" alt="Backend Engineer, Java and Spring Boot. I build secure, maintainable REST APIs. Damascus University graduate. Learning microservices and ERP systems.">
+    <img src="assets/typing-light.svg" alt="Backend Engineer, Java and Spring Boot. I help companies build ERP systems. I build backend systems and mobile apps. I help move monoliths to microservices.">
   </picture>
 </p>
 
@@ -16,30 +16,31 @@
 
 ## About me
 
-I'm a backend engineer from Damascus, Syria, working mainly with **Java and Spring Boot**. I design and build REST APIs and the services behind them, with a focus on security, clean architecture and maintainable code. I graduated from Damascus University in Information Technology Engineering (Software Engineering).
+I'm a backend engineer from Damascus, Syria, working mainly with **Java and Spring Boot**. I help companies build ERP systems, design and build their backend infrastructure, develop mobile apps, and move from a monolith to microservices. I graduated from Damascus University in Information Technology Engineering (Software Engineering).
 
-- **Main stack:** Java, Spring Boot, Spring Security, JPA / Hibernate, PostgreSQL, Redis, Docker, Kubernetes
+- **Backend:** Java, Spring Boot, Spring Security, JPA / Hibernate, REST and GraphQL APIs
+- **ERP:** Frappe and ERPNext
+- **Data and delivery:** PostgreSQL, Redis, Docker, Kubernetes
 - **Also:** NestJS for APIs and Flutter for mobile apps
-- **Currently:** building microservices with Spring Boot and learning ERP system design
 - **Problem solving:** competed in the 2023 ICPC Damascus University Collegiate Programming Contest
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
-    <img src="assets/skills-light.svg" alt="Java, Spring, Hibernate, Maven, PostgreSQL, MySQL, Redis, MongoDB, Docker, Kubernetes, GitHub Actions, Google Cloud, Linux, NestJS, Flutter" width="440">
+    <img src="assets/skills-light.svg" alt="Java, Spring, Hibernate, Maven, GraphQL, Frappe, ERPNext, PostgreSQL, MySQL, Redis, MongoDB, Docker, Kubernetes, GitHub Actions, Linux, NestJS, Flutter" width="500">
   </picture>
 </p>
 
 ## Achievements
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/trophies-1-dark.svg"><img src="assets/live/trophies-1-light.svg" alt="Trophies for commits, stars and pull requests" width="350"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/trophies-2-dark.svg"><img src="assets/live/trophies-2-light.svg" alt="Trophies for repositories, followers and experience" width="350"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/trophies-1-dark.svg"><img src="assets/live/trophies-1-light.svg" alt="Trophies for commits, stars and pull requests" width="420"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/trophies-2-dark.svg"><img src="assets/live/trophies-2-light.svg" alt="Trophies for repositories, followers and experience" width="420"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/stats-dark.svg"><img src="assets/live/stats-light.svg" alt="GitHub stats" width="415"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/streak-dark.svg"><img src="assets/live/streak-light.svg" alt="GitHub contribution streak" width="415"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/stats-dark.svg"><img src="assets/live/stats-light.svg" alt="GitHub stats" width="420"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/streak-dark.svg"><img src="assets/live/streak-light.svg" alt="GitHub contribution streak" width="420"></picture>
 </p>
 
 ## Contribution activity
@@ -52,10 +53,10 @@ I'm a backend engineer from Damascus, Syria, working mainly with **Java and Spri
 ## Featured repositories
 
 <p align="center">
-  <a href="https://github.com/aymansalkhatib/shakwa-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-shakwa-backend-dark.svg"><img src="assets/live/repo-shakwa-backend-light.svg" alt="shakwa-backend" width="400"></picture></a>
-  <a href="https://github.com/aymansalkhatib/nestjs-starter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-nestjs-starter-dark.svg"><img src="assets/live/repo-nestjs-starter-light.svg" alt="nestjs-starter" width="400"></picture></a>
-  <a href="https://github.com/aymansalkhatib/albarakah-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-albarakah-backend-dark.svg"><img src="assets/live/repo-albarakah-backend-light.svg" alt="albarakah-backend" width="400"></picture></a>
-  <a href="https://github.com/aymansalkhatib/hybrid-search-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-hybrid-search-engine-dark.svg"><img src="assets/live/repo-hybrid-search-engine-light.svg" alt="hybrid-search-engine" width="400"></picture></a>
-  <a href="https://github.com/aymansalkhatib/school-dashboard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-school-dashboard-dark.svg"><img src="assets/live/repo-school-dashboard-light.svg" alt="school-dashboard" width="400"></picture></a>
-  <a href="https://github.com/aymansalkhatib/bio-medika-mobile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-bio-medika-mobile-dark.svg"><img src="assets/live/repo-bio-medika-mobile-light.svg" alt="bio-medika-mobile" width="400"></picture></a>
+  <a href="https://github.com/aymansalkhatib/shakwa-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-shakwa-backend-dark.svg"><img src="assets/live/repo-shakwa-backend-light.svg" alt="shakwa-backend: NestJS backend for a government complaints platform" width="420"></picture></a>
+  <a href="https://github.com/aymansalkhatib/albarakah-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-albarakah-backend-dark.svg"><img src="assets/live/repo-albarakah-backend-light.svg" alt="albarakah-backend: REST API for a charity association" width="420"></picture></a>
+  <a href="https://github.com/aymansalkhatib/lexora-mobile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-lexora-mobile-dark.svg"><img src="assets/live/repo-lexora-mobile-light.svg" alt="lexora-mobile: Flutter vocabulary app with spaced repetition" width="420"></picture></a>
+  <a href="https://github.com/aymansalkhatib/icall-mobile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-icall-mobile-dark.svg"><img src="assets/live/repo-icall-mobile-light.svg" alt="icall-mobile: Flutter app for Syriatel and MTN transfers" width="420"></picture></a>
+  <a href="https://github.com/aymansalkhatib/hybrid-search-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-hybrid-search-engine-dark.svg"><img src="assets/live/repo-hybrid-search-engine-light.svg" alt="hybrid-search-engine: search engine built as Python microservices" width="420"></picture></a>
+  <a href="https://github.com/aymansalkhatib/ghasaq"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-ghasaq-dark.svg"><img src="assets/live/repo-ghasaq-light.svg" alt="ghasaq: first-person survival shooter for the browser" width="420"></picture></a>
 </p>
