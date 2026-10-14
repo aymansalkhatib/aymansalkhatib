@@ -1,0 +1,43 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Draw the contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/live/snake-light.svg?palette=github-light
+            assets/live/snake-dark.svg?palette=github-dark
+
+      - name: Refresh stats, streak, trophies and repository cards
+        run: node scripts/update-cards.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/live
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Update profile cards"
+          git push
