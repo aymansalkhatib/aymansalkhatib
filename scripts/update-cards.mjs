@@ -1,7 +1,6 @@
-// Refreshes the cards in assets/live. The trophies, stats and repository cards are
-// drawn here from public GitHub data; the streak card comes from its public
-// service. Anything that fails keeps its previous version, so the README never
-// shows a broken image.
+// Refreshes the cards in assets/live. The trophies and stats are drawn here from
+// public GitHub data; the streak card comes from its public service. Anything
+// that fails keeps its previous version, so the README never shows a broken image.
 //
 //   GITHUB_TOKEN=<token> node scripts/update-cards.mjs
 
@@ -10,18 +9,6 @@ import fs from 'node:fs/promises';
 const USER = 'aymansalkhatib';
 const OUT = new URL('../assets/live/', import.meta.url);
 const TOKEN = process.env.GITHUB_TOKEN;
-
-// Featured repositories, in display order, with a short summary and a category.
-const REPOS = [
-  { name: 'shakwa-backend', tag: 'Backend', summary: 'NestJS backend for a government complaints platform: role-based access, complaint locking, audit logs, Redis caching, Docker and Kubernetes.' },
-  { name: 'albarakah-backend', tag: 'Backend', summary: 'REST API for a charity association: families, home visits, aid requests and sponsorships, with role-based and per-user permissions.' },
-  { name: 'lexora-mobile', tag: 'Mobile', summary: 'Flutter app for learning English vocabulary with spaced repetition, ten study modes, pronunciation checks and cloud sync.' },
-  { name: 'icall-mobile', tag: 'Mobile', accent: '00b4ab', summary: 'Flutter app that sends Syriatel and MTN transfers through automated USSD codes, with a native Kotlin plugin.' },
-  { name: 'hybrid-search-engine', tag: 'Search', summary: 'Search engine built as Python microservices: TF-IDF, BM25, Word2Vec and BERT retrieval with rank fusion and evaluation.' },
-  { name: 'ghasaq', tag: 'Game', summary: 'First-person survival shooter for the browser, built with Three.js and cannon-es; every texture, model and sound is made in code.' },
-];
-
-const LANGUAGE_COLORS = { TypeScript: '3178c6', JavaScript: 'f1e05a', Dart: '00b4ab', Python: '3572a5', Java: 'b07219', Kotlin: 'a97bff' };
 
 // Colours follow GitHub's own light and dark themes. Cards are 420px wide, so two fill the README.
 const W = 420;
@@ -51,7 +38,6 @@ const ICONS = {
   commit: 'M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z',
   pr: 'M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z',
   repo: 'M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z',
-  fork: 'M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z',
   cup: 'M5.09 10.121A5.251 5.251 0 0 1 1 5V3.75C1 2.784 1.784 2 2.75 2h2.364c.236-.586.81-1 1.48-1h10.812c.67 0 1.244.414 1.48 1h2.489c.966 0 1.75.784 1.75 1.75V5a5.252 5.252 0 0 1-4.219 5.149 7.01 7.01 0 0 1-4.644 5.478l.231 3.003a.5.5 0 0 0 .034.031c.079.065.303.203.836.282.838.124 1.637.57 1.637 1.557v.75a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75v-.75c0-.987.799-1.433 1.637-1.557.533-.079.757-.217.836-.282a.5.5 0 0 0 .034-.031l.231-3.003A7.012 7.012 0 0 1 5.09 10.12ZM5 3.5H2.75a.25.25 0 0 0-.25.25V5A3.752 3.752 0 0 0 5.159 8.581 6.957 6.957 0 0 1 5 7.25ZM19 7.25c0 .44-.04.871-.118 1.29A3.75 3.75 0 0 0 21.5 5V3.75a.25.25 0 0 0-.25-.25H19Zm-1.5 0V2.75a.25.25 0 0 0-.25-.25H6.75a.25.25 0 0 0-.25.25v4.5a5.5 5.5 0 1 0 11 0Zm-8.1 11.94-.021.004c-.413.061-.53.208-.535.239L8.84 19.5h6.32l-.004-.067c-.005-.031-.122-.178-.535-.239l-.021-.004a2.016 2.016 0 0 1-1.648-1.825L12.725 16a6.97 6.97 0 0 1-1.45 0l-.227 1.365a2.016 2.016 0 0 1-1.648 1.825Z',
 };
 
@@ -161,47 +147,6 @@ function statsCard(n, t) {
   return svg(W, H, `GitHub stats: ${rows.map(([, l, v]) => `${l} ${fmt(v)}`).join(', ')}. Rank ${level}.`, body);
 }
 
-// ---------------------------------------------------------------- repository cards
-
-// Wraps by character count; 54 characters of 13px text fit the card at any common font.
-function wrap(text, max = 54, lines = 3) {
-  const out = [];
-  let cur = '';
-  for (const word of text.split(' ')) {
-    if (cur && (cur + ' ' + word).length > max) { out.push(cur); cur = word; } else cur = cur ? `${cur} ${word}` : word;
-  }
-  if (cur) out.push(cur);
-  if (out.length > lines) { out.length = lines; out[lines - 1] = out[lines - 1].replace(/\W*\s*\S*$/, '') + '…'; }
-  return out;
-}
-
-function repoCard(repo, data, t) {
-  const H = 150;
-  const language = data.language;
-  const accent = `#${repo.accent ?? LANGUAGE_COLORS[language] ?? t.accent}`;
-  let body = `<defs><clipPath id="c"><rect width="${W}" height="${H}" rx="8"/></clipPath></defs>`
-    + `<g clip-path="url(#c)"><rect width="${W}" height="${H}" fill="#${t.bg}"/><rect width="${W}" height="4" fill="${accent}"/></g>`
-    + `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="8" fill="none" stroke="#${t.border}"/>`
-    + `<path transform="translate(20 22)" d="${ICONS.repo}" fill="#${t.text}"/>`
-    + `<text x="44" y="35" font-size="16" font-weight="600" fill="#${t.accent}">${esc(repo.name)}</text>`
-    + `<text x="${W - 20}" y="34" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#${t.text}">${repo.tag.toUpperCase()}</text>`;
-  wrap(repo.summary).forEach((line, i) => {
-    body += `<text x="20" y="${62 + i * 19}" font-size="13" fill="#${t.text}">${esc(line)}</text>`;
-  });
-  let x = 20;
-  const y = 130;
-  if (language) {
-    body += `<circle cx="${x + 6}" cy="${y - 4.5}" r="6" fill="${accent}"/><text x="${x + 18}" y="${y}" font-size="12" fill="#${t.text}">${language}</text>`;
-    x += 18 + language.length * 7 + 18;
-  }
-  for (const [icon, count] of [['star', data.stargazers_count], ['fork', data.forks_count]]) {
-    if (!count) continue;
-    body += `<path transform="translate(${x} ${y - 12})" d="${ICONS[icon]}" fill="#${t.text}"/><text x="${x + 21}" y="${y}" font-size="12" fill="#${t.text}">${fmt(count)}</text>`;
-    x += 21 + String(count).length * 7 + 16;
-  }
-  return svg(W, H, `${repo.name}: ${repo.summary}`, body);
-}
-
 // ---------------------------------------------------------------- streak card
 
 const query = (params) => new URLSearchParams(params).toString();
@@ -257,15 +202,6 @@ await attempt('stats and trophies', async () => {
     await fs.writeFile(new URL(`trophies-2-${id}.svg`, OUT), trophyRow(TROPHIES.slice(3), numbers, t));
   }
 });
-
-for (const repo of REPOS) {
-  await attempt(repo.name, async () => {
-    const data = await github(`/repos/${USER}/${repo.name}`);
-    for (const [id, t] of Object.entries(THEMES)) {
-      await fs.writeFile(new URL(`repo-${repo.name}-${id}.svg`, OUT), repoCard(repo, data, t));
-    }
-  });
-}
 
 for (const [id, t] of Object.entries(THEMES)) {
   if (!(await download(streakUrl(t), `streak-${id}.svg`))) failures++;

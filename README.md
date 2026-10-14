@@ -49,14 +49,3 @@ I'm a backend engineer from Damascus, Syria, working mainly with **Java and Spri
   <source media="(prefers-color-scheme: dark)" srcset="assets/live/snake-dark.svg">
   <img src="assets/live/snake-light.svg" alt="A snake eating the contribution graph of the past year" width="100%">
 </picture>
-
-## Featured repositories
-
-<p align="center">
-  <a href="https://github.com/aymansalkhatib/shakwa-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-shakwa-backend-dark.svg"><img src="assets/live/repo-shakwa-backend-light.svg" alt="shakwa-backend: NestJS backend for a government complaints platform" width="420"></picture></a>
-  <a href="https://github.com/aymansalkhatib/albarakah-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-albarakah-backend-dark.svg"><img src="assets/live/repo-albarakah-backend-light.svg" alt="albarakah-backend: REST API for a charity association" width="420"></picture></a>
-  <a href="https://github.com/aymansalkhatib/lexora-mobile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-lexora-mobile-dark.svg"><img src="assets/live/repo-lexora-mobile-light.svg" alt="lexora-mobile: Flutter vocabulary app with spaced repetition" width="420"></picture></a>
-  <a href="https://github.com/aymansalkhatib/icall-mobile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-icall-mobile-dark.svg"><img src="assets/live/repo-icall-mobile-light.svg" alt="icall-mobile: Flutter app for Syriatel and MTN transfers" width="420"></picture></a>
-  <a href="https://github.com/aymansalkhatib/hybrid-search-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-hybrid-search-engine-dark.svg"><img src="assets/live/repo-hybrid-search-engine-light.svg" alt="hybrid-search-engine: search engine built as Python microservices" width="420"></picture></a>
-  <a href="https://github.com/aymansalkhatib/ghasaq"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/live/repo-ghasaq-dark.svg"><img src="assets/live/repo-ghasaq-light.svg" alt="ghasaq: first-person survival shooter for the browser" width="420"></picture></a>
-</p>
