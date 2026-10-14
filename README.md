@@ -1,117 +1,50 @@
- <div align="center">
-   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" />
-</div>
-
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Ayman-Al-Khatib.Ayman-Al-Khatib" />
-
-<h3 align="center">
-  Hi, I'm Ayman Al-khatib 
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-</h3>
+<picture>
+  <source media="(max-width: 900px)" srcset="assets/hero-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Ayman Al-Khatib, Software Engineer. Backend systems in NestJS and Spring Boot, and the Flutter apps that run on top of them." src="assets/hero-light.svg" width="100%">
+</picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=72FFFF&size=25&center=true&vCenter=true&width=1000&lines=Welcome+to+my+GitHub+profile!;Software+Engineering+student+at+Damascus+University.;Aspiring+Full-Stack+Developer.;Experienced+with+Flutter+and+Express.js.;Always+exploring+new+technologies+and+improving!" alt="Typing SVG">
+  <a href="https://www.linkedin.com/in/aymansalkhatib"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="44"></picture></a>
+  <a href="mailto:aymansalkhatib@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img alt="Email" src="assets/btn-email-light.svg" height="44"></picture></a>
 </p>
 
----
+I'm a software engineer focused on backend architecture: APIs and services that stay fast, secure and easy to change as they grow. I build them mostly with **NestJS** and **Spring Boot** on PostgreSQL and Redis, and I ship **Flutter** apps end to end, so I see a product from the database to the screen.
 
-<br>
+I graduated in Information Technology Engineering (Software Engineering) from Damascus University. I also help teams build ERP systems and move from a monolith to microservices.
 
-- **🎓 Fourth-year Software Engineering student at Damascus University.**
-- **💼 Certified Full Stack Developer, proficient in both front-end and back-end development.**
-- **📱 Two years of Flutter experience crafting dynamic, responsive mobile applications.**
-- **🌐 One year of Express.js expertise building robust, scalable back-end systems.**
-<br>
+## What I do
 
-## 🛠️ Technologies & Tools
-<div align="left">
-  <!-- Frameworks -->
-  <img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=express" alt="Express.js" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS" />
-  <img width="1" />
-  <!-- Languages -->
-  <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=java" alt="Java" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=cpp" alt="C++" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=dart" alt="Dart" />
-  <img width="1" />
-  <!-- Databases -->
-  <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=redis" alt="Redis" />
-  <img width="1" />
-  <!-- Tools & Platforms -->
-  <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=sequelize" alt="Sequelize" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=postman" alt="Postman" />
-  <img width="1" />
-  <!-- Development Tools -->
-  <img src="https://skillicons.dev/icons?i=idea" alt="IntelliJ IDEA" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=webstorm" alt="WebStorm" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=visualstudio" alt="Visual Studio" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=clion" alt="CLion" />
-  <img width="1" />
-  <!-- Version Control & Platforms -->
-  <img src="https://skillicons.dev/icons?i=git" alt="Git" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=gitlab" alt="GitLab" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=npm" alt="NPM" />
-  <img width="1" />
-  <img src="https://skillicons.dev/icons?i=stackoverflow" alt="StackOverflow" />
-  <img width="1" />
-  <img src="https://socket.io/images/logo-dark.svg" height=45 alt="Socket.IO" />
-</div>
-
-## GitHub Profile Statistics 
-<p>
-   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ayman-al-khatib&theme=algolia&show_icons=true&locale=en&layout=compact&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20" alt="ayman-al-khatib" height="170"/>
-  <image width=12>
-  <img src="https://github-readme-stats.vercel.app/api?username=ayman-al-khatib&theme=algolia&show_icons=true&count_private=true&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20&include_all_commits=true&rank_icon=percentile" alt="ayman-al-khatib" height="170"/>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-backend-dark.svg"><img alt="Backend: REST APIs and services with NestJS, Spring Boot, Express, TypeScript, Java, TypeORM, Hibernate, Spring Security, JWT and OAuth2, Socket.IO." src="assets/stack-backend-light.svg" width="415"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-mobile-dark.svg"><img alt="Mobile: Flutter apps delivered end to end with Dart, Bloc, GetX, Clean Architecture, dependency injection, Dio, responsive UI, push notifications and Google Maps." src="assets/stack-mobile-light.svg" width="415"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-data-dark.svg"><img alt="Data: PostgreSQL, MySQL, MongoDB, Redis, Supabase, Firebase and Pinecone." src="assets/stack-data-light.svg" width="415"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-devops-dark.svg"><img alt="Cloud and DevOps: Docker, Kubernetes, Google Cloud, GitHub Actions, Jenkins, Terraform, Ansible and Linux." src="assets/stack-devops-light.svg" width="415"></picture>
 </p>
 
+## Experience
 
-## GitHub Streak Statistics
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ayman-al-khatib&theme=algolia&bg_color=1e2b3c&border_color=B2E0FF&icon_color=95ccff&border_radius=20" alt="ayman-al-khatib" />
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/exp-blendlab-dark.svg"><img alt="Software Engineer at BlendLab, remote, May 2025 to November 2025. Stripe subscriptions and payments, RAG search with Pinecone, faster map features. Projects: BunudAI, Tesaa, PinRose." src="assets/exp-blendlab-light.svg" width="415"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/exp-bayan-dark.svg"><img alt="Flutter Developer at Bayan Masters, remote, November 2024 to March 2025. Bloc state management, responsive UI with maps and location. Projects: AdZone, Liiamra, Munaseb, Wayyak." src="assets/exp-bayan-light.svg" width="415"></picture>
+</p>
 
-## 💳 Github Profile Summary Card
-<img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ayman-al-khatib&theme=algolia" alt="ayman-al-khatib" />
+## Selected projects
 
-## 🏆 Profile Trophies
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ayman-al-khatib&theme=onedark" alt="ayman-al-khatib" /></a> </p>
+<p align="center">
+  <a href="https://github.com/aymansalkhatib/shakwa-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-shakwa-dark.svg"><img alt="Shakwa: complaint management platform built with NestJS, PostgreSQL, Redis and Kubernetes." src="assets/proj-shakwa-light.svg" width="415"></picture></a>
+  <a href="https://github.com/aymansalkhatib/nestjs-starter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-nestjs-starter-dark.svg"><img alt="NestJS Starter: production-ready NestJS 11 and PostgreSQL API starter with 400+ tests." src="assets/proj-nestjs-starter-light.svg" width="415"></picture></a>
+  <a href="https://github.com/aymansalkhatib/hybrid-search-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-hybrid-search-dark.svg"><img alt="Hybrid Search Engine: TF-IDF, BM25, Word2Vec and BERT retrieval as Python microservices." src="assets/proj-hybrid-search-light.svg" width="415"></picture></a>
+  <a href="https://github.com/aymansalkhatib/albarakah-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-albarakah-dark.svg"><img alt="Al-Barakah: charity case management API built with NestJS, TypeORM and PostgreSQL." src="assets/proj-albarakah-light.svg" width="415"></picture></a>
+  <a href="https://github.com/aymansalkhatib/lexora-mobile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-lexora-dark.svg"><img alt="Lexora: Flutter vocabulary app with spaced repetition and cloud sync." src="assets/proj-lexora-light.svg" width="415"></picture></a>
+  <a href="https://github.com/aymansalkhatib/bio-medika-mobile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proj-bio-medika-dark.svg"><img alt="Bio Medika: Flutter pharmacy ordering app with order tracking and push notifications." src="assets/proj-bio-medika-light.svg" width="415"></picture></a>
+</p>
 
-## Highlighted Repositories
-<p align="left">
-  <a href="https://github.com/Ayman-Al-Khatib/bio-medika-mobile"><img width="31%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=bio-medika-mobile&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="Bio Medika Mobile"></a>
-  <a href="https://github.com/Ayman-Al-Khatib/bio-medika-web"><img width="31%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=bio-medika-web&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="Bio Medika Web"></a>
-  <a href="https://github.com/Ayman-Al-Khatib/school-dashboard"><img width="31%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=school-dashboard&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="School Dashboard"></a>
-  <a href="https://github.com/Ayman-Al-Khatib/profinder-backend"><img width="31%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=profinder-backend&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="ProFinder Backend"></a>
-  <a href="https://github.com/Ayman-Al-Khatib/ecommerce-backend"><img width="31%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Ayman-Al-Khatib&repo=ecommerce-backend&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="E-Commerce Backend"></a>
+<p align="center">More on GitHub: <a href="https://github.com/aymansalkhatib/school-dashboard">school-dashboard</a> · <a href="https://github.com/aymansalkhatib/flutter-starter">flutter-starter</a> · <a href="https://github.com/aymansalkhatib/flutter-screenshot-protection">flutter-screenshot-protection</a> · <a href="https://github.com/aymansalkhatib/ghasaq">ghasaq</a> · <a href="https://github.com/aymansalkhatib/ecommerce-backend">ecommerce-backend</a></p>
+
+## Education
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/edu-damascus-dark.svg"><img alt="Damascus University, Faculty of Information Technology Engineering. Bachelor of Information Technology Engineering, specialization in Software Engineering, 2021 to 2026. Competed in the 2023 ICPC Damascus University Collegiate Programming Contest." src="assets/edu-damascus-light.svg" width="415"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/edu-certificates-dark.svg"><img alt="Certificates: Learn Nest.js Framework in Details, Index Academy, 2024. Flutter Advanced: Clean Architecture with MVVM, Udemy, 2023." src="assets/edu-certificates-light.svg" width="415"></picture>
 </p>
